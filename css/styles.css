@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 120px;
+}
+
+input {
+	border: 1px solid #666666;
+	padding: 25px;
+	outline: none;
+	width: 70%;
+	float: left;
+	margin: 0;
+	font-size: 18px;
+	transition: 1s;
+}
+
+button {
+	background: #666666;
+	border: 1px solid #666666;
+	padding: 25px;
+	width: 30%;
+	float: left;
+	margin: 0;
+	color: #eeeeee;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #333333;
+}
